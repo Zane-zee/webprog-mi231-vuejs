@@ -3,13 +3,41 @@
 <head>
   <title>My first Vue page</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mystyle.css">
 </head>
 <body>
 
-<h1>Example with JavaScript inside {{ }}</h1>
+    <h1>Personal Profile Web page </h1>    
 
-<p>The 'message' text from the Vue instance is put together with another text and a JavaScript expression. The JavaScript expression creates a random integer between 1 and 6.</p>
-
+    <h2>About Me</h2>  
+    <p>Hello! I’m Zane, a passionate IT student specializing in Mobile and Internet Technologies.</p>
+    <h2>Education</h2>
+    <ul>
+        <li>STI College Pasay-EDSA (SHS STEM)</li>
+        <li>Asia Pacific College (2nd Year)</li>
+    </ul>
+    
+    <h2>Course</h2>
+    <p>Bachelor of Science in Information Technology with specialization in Mobile and Internet Technologies</p>    
+    
+    <h2>IT Experience</h2>
+    <ul>
+        <li>Basic Codes of Java</li>
+        <li>Basic Codes of Python</li>
+        <li>Basic Knowledge in Figma</li>
+        <li>Created an app using Figma & Android Studio</li>
+    </ul>
+    
+    <h2>Hobbies & Interests</h2>
+    <ul>
+        <li>Going to the gym</li>
+        <li>Playing Video Games</li>
+        <li>Streaming</li>
+    </ul> 
+    
+    <h2>Goals in Life / Dream</h2>
+    <p>To become a successful software developer and create apps that positively impact people's lives.</p>  
+    
 <div id="app">
   {{ message }} <br>
   {{'Random number: ' + Math.ceil(Math.random()*6) }}
