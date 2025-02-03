@@ -1,5 +1,4 @@
 <template>
-<div class="container">
 <h1>Personal Profile Web page </h1>    
 
     <h2>About Me</h2>  
