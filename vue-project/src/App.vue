@@ -30,4 +30,4 @@
   </template>
 
 <style>
-</style>           
+</style>
