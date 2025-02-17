@@ -1,5 +1,8 @@
 <template>
   <h1>Food</h1>
+    <ul>
+      <li v-for="countries in instruments" :key="instrument.id">{{ instrument.name }}</li>
+    </ul> \
   <food-item/> <br>
   <food-item2/> <br>
   <food-item/> <br>
@@ -22,12 +25,6 @@
     getInstruments()
   })
   </script>
-
-  <template>
-    <ul>
-      <li v-for="countries in instruments" :key="instrument.id">{{ instrument.name }}</li>
-    </ul>
-  </template>
 
 <style>
 </style>
