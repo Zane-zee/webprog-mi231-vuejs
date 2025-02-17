@@ -2,7 +2,7 @@
   <h1>Food</h1>
     <ul>
       <li v-for="countries in instruments" :key="instrument.id">{{ instrument.name }}</li>
-    </ul> \
+    </ul> 
   <food-item/> <br>
   <food-item2/> <br>
   <food-item/> <br>
