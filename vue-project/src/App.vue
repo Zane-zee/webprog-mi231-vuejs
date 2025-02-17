@@ -1,7 +1,7 @@
 <template>
   <h1>Food</h1>
     <ul>
-      <li v-for="countries in instruments" :key="instrument.id">{{ instrument.name }}</li>
+      <li v-for="country in countries" :key="country.id">{{ country.name }}</li>
     </ul> 
   <food-item/> <br>
   <food-item2/> <br>
